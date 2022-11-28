@@ -1,9 +1,19 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
+.bg-blu {
+  background-color: #B1E5F2;
+}
+
+.desc-tab {
+  background-color: #1FA9E5;
+  color: white;
+}
+
+.container {
+  padding: 200px;
+}
 header {
   height: 100px;
   margin-bottom: 10px;
@@ -11,13 +21,17 @@ header {
   background-image: url("../img/pattern.png");
   background-repeat: repeat;
   background-size: 380px;
+}
 
-
-
+h1 {
+  font-size: 35px;
 }
 
 .logo {
   width: 180px;
   float: left;
   margin: 40px 10px;
+}
+.yellow-marker {
+  background-color: yellow;
 }
