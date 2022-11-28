@@ -11,6 +11,12 @@
   color: white;
 }
 
+.graph {
+  background-image: url(../img/graph.jpg);
+  width: 200px;
+  height: 160px;
+  color: white;
+}
 .container {
   padding: 200px;
 }
@@ -31,6 +37,13 @@ h1 {
   width: 180px;
   float: left;
   margin: 40px 10px;
+}
+.monitor {
+  background-image: url(../img/monitor.jpg);
+  width: 200px;
+  height: 160px;
+  padding: 15px;
+  color: white;
 }
 .yellow-marker {
   background-color: yellow;
