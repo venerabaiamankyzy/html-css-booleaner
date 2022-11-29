@@ -1,14 +1,49 @@
 * {
+  
   box-sizing: border-box;
+}
+.author a {
+  color: #1FA9E5;
+  text-decoration: none;
+
+}.author {
+  font-size: 16px;
+  margin-top: 0;
+  color: gray;
 }
 
 .bg-blu {
   background-color: #B1E5F2;
 }
 
+.caption {
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.container {
+  padding: 0 250px;
+}
+
+.date {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
 .desc-tab {
   background-color: #1FA9E5;
   color: white;
+}
+
+.desc-first-photo {
+  font-size: 12px;
+}
+
+.desc-second-photo {
+  margin: 0 0 20px 0 ;
+  font-size: 12px;
 }
 
 .graph {
@@ -17,9 +52,7 @@
   height: 160px;
   color: white;
 }
-.container {
-  padding: 200px;
-}
+
 header {
   height: 100px;
   margin-bottom: 10px;
@@ -29,15 +62,12 @@ header {
   background-size: 380px;
 }
 
-h1 {
-  font-size: 35px;
-}
-
 .logo {
   width: 180px;
   float: left;
   margin: 40px 10px;
 }
+
 .monitor {
   background-image: url(../img/monitor.jpg);
   width: 200px;
@@ -45,6 +75,31 @@ h1 {
   padding: 15px;
   color: white;
 }
+
+ul {
+  font-size: 16px;
+  margin-left: 0;
+  padding-left: 13px;
+}
+
+.text {
+  font-size: 16px;
+}
+
+table {
+  width: auto;
+}
+
+th {
+  padding: 10px 80px;
+  font-size: 16px;
+  text-align: left;
+}
+
 .yellow-marker {
   background-color: yellow;
 }
+
+
+
+
